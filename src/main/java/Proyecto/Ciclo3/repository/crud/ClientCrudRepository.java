@@ -1,0 +1,12 @@
+/*
+ * 
+ */
+package Proyecto.Ciclo3.repository.crud;
+
+import Proyecto.Ciclo3.model.Client;
+import org.springframework.data.repository.CrudRepository;
+
+
+public interface ClientCrudRepository extends CrudRepository<Client, Integer> {
+    
+}
